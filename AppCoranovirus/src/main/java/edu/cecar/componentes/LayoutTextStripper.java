@@ -15,7 +15,7 @@
  * Esta clase fue tomada de internet
  */
 
-package edu.cecar.modelo;
+package edu.cecar.componentes;
 
 import java.io.IOException;
 import java.lang.reflect.Field;
