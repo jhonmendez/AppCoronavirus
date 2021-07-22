@@ -1,20 +1,13 @@
 package edu.cecar.modelo;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import org.json.JSONObject;
+
 import jakarta.ws.rs.client.Client;
 import jakarta.ws.rs.client.ClientBuilder;
 import jakarta.ws.rs.core.Response;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.Scanner;
-
-import javax.mail.search.AndTerm;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
-import org.omg.CORBA.PUBLIC_MEMBER;
 
 
 public class VerificarEmail3 {
@@ -78,10 +71,7 @@ public class VerificarEmail3 {
 		String n = "n";
 		//String emailAverificar = "juan.benavides@cecar.edu.co";
 		ArrayList<String> almacenarCorreos = new ArrayList<String>();
-
-		
-
-		almacenarCorreos.add(emailAverificar);
+        almacenarCorreos.add(emailAverificar);
 
 		String endPoint ="http://apilayer.net/api/check?access_"
 				+ "key=703c7b883e3e7e526f362a6d2200c471&email="+emailAverificar

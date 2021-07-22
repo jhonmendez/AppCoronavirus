@@ -1,19 +1,13 @@
 package edu.cecar.modelo;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import org.json.JSONObject;
+
 import jakarta.ws.rs.client.Client;
 import jakarta.ws.rs.client.ClientBuilder;
 import jakarta.ws.rs.core.Response;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.Scanner;
-
-import javax.mail.search.AndTerm;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
 
 
 public class VerificarEmail {
