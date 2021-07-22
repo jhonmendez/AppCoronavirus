@@ -64,8 +64,11 @@ public class ObtenerPaises {
 				String totalMuertes = columnas[3];
 				String totalNuevasMuertes = columnas[4];
 
-				System.out.format("%s\n%s\n%s\n%s\n%s\n\n", country,totalCasosConfirmados,
-				totalNuevosCasosConfirmados,totalMuertes,totalNuevasMuertes);
+				System.out.format("%s\n%s\n%s\n%s\n%s\n\n", country,
+						" Total Casos Confirmados: "+ totalCasosConfirmados,
+						" Total Nuevos Casos Confirmados: "+ totalNuevosCasosConfirmados,
+						" Total Muertes: "+totalMuertes,
+						" Total Nuevas Muertes: 2"+totalNuevasMuertes);
 
 				}
 
